@@ -1,11 +1,11 @@
 // キャッシュしたいふぁいる
 const cacheDataList = [
-    'index.html',
-    'sw.js',
+    '/PWAOfflineTest/index.html',
+    '/PWAOfflineTest/sw.js',
 ];
 
 // 名前。更新するときに使う？
-const version = '2020/02/15'
+const version = 'pwa_test_v1'
 
 self.addEventListener('install', function (e) {
     e.waitUntil(
