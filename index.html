@@ -11,9 +11,10 @@
     <h1>オフラインで動くってほんとうかあ？</h1>
     <script type="text/javascript">
         if ('serviceWorker' in navigator) {
-            navigator.serviceWorker.register('/sw.js')
-                .then(function () { console.log("Service Worker 登録したよ"); })
-                .catch(function () { console.log("Service Worker 登録できなかったよ"); });
+            navigator.serviceWorker
+                .register('/sw.js')
+                .then(function () { console.log("Service Worker Registered"); })
+                .catch(function () { console.log("Service Worker Not Registered"); });
         }
     </script>
 </body>
