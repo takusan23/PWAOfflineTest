@@ -9,7 +9,7 @@
 
 <body>
     <h1>オフラインで動くってほんとうかあ？</h1>
-    <script>
+    <script type="text/javascript">
         if ('serviceWorker' in navigator) {
             navigator.serviceWorker.register('/sw.js')
                 .then(function () { console.log("Service Worker 登録したよ"); })
