@@ -1,0 +1,6 @@
+{
+    "name": "PWAOfflineTest",
+    "short_name": "PWAOfflineTest",
+    "background_color": "#fc980c",
+    "display": "standalone"
+}
