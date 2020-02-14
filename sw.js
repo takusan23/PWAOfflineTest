@@ -1,6 +1,7 @@
 // キャッシュしたいふぁいる
 const cacheDataList = [
-    'index.html'
+    'index.html',
+    'app.js',
 ];
 
 // 名前。更新するときに使う？
