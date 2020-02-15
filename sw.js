@@ -5,7 +5,7 @@ const URLS = [
 ];
 
 var APP_PREFIX = 'PWAOfflineTest'     // Identifier for this app (this needs to be consistent across every cache update)
-var VERSION = 'version_20200215_2'              // Version of the off-line cache (change this value everytime you want to update cache)
+var VERSION = 'version_20200215_3'              // Version of the off-line cache (change this value everytime you want to update cache)
 var CACHE_NAME = APP_PREFIX + VERSION
 
 // Respond with cached resources
