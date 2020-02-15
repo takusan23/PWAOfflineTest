@@ -1,7 +1,7 @@
 // キャッシュしたいふぁいる
 const URLS = [
-    '/PWAOfflineTest/index.html',
-    '/PWAOfflineTest/sw.js',
+    '/PWAOfflineTest/',
+    '/PWAOfflineTest/index.html'
 ];
 
 var APP_PREFIX = 'PWAOfflineTest'     // Identifier for this app (this needs to be consistent across every cache update)
