@@ -14,7 +14,7 @@
     <script type="text/javascript">
         if ('serviceWorker' in navigator) {
             navigator.serviceWorker
-                .register('/PWAOfflineTest/sw.js', { scope: '/{PWAOfflineTest}/' })
+                .register('/PWAOfflineTest/sw.js', { scope: '/PWAOfflineTest/' })
                 .then(function () { console.log("Service Worker Registered"); })
                 .catch(function () { console.log("Service Worker Not Registered"); });
         }
